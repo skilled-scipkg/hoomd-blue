@@ -1,0 +1,103 @@
+{
+  "compiled_package_id": "hoomd-blue",
+  "evidence": {
+    "core_skills": [
+      "hoomd-blue-sphinx-doc",
+      "hoomd-blue-theory-and-methods",
+      "hoomd-blue-build-and-install",
+      "hoomd-blue-simulation-workflows",
+      "hoomd-blue-inputs-and-modeling",
+      "hoomd-blue-examples-and-tutorials"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/hoomd-blue-sphinx-doc.md",
+      "skills/.evidence/hoomd-blue-theory-and-methods.md",
+      "skills/.evidence/hoomd-blue-build-and-install.md",
+      "skills/.evidence/hoomd-blue-simulation-workflows.md",
+      "skills/.evidence/hoomd-blue-inputs-and-modeling.md",
+      "skills/.evidence/hoomd-blue-examples-and-tutorials.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "sphinx-doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary narrative/API docs are under sphinx-doc/.",
+      "Tutorial and how-to content is under sphinx-doc/tutorial and sphinx-doc/howto.",
+      "Tests are organized by engine/module in hoomd/*/(test|pytest).",
+      "Generator defaults do not infer sphinx-doc or hoomd as docs/source roots, so explicit dirs are pinned for deterministic runs."
+    ],
+    "package_name": "hoomd-blue",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "CMake",
+      "hoomd"
+    ],
+    "test_dirs": [
+      "hoomd/pytest",
+      "hoomd/test",
+      "hoomd/hpmc/pytest",
+      "hoomd/hpmc/test",
+      "hoomd/md/pytest",
+      "hoomd/md/test",
+      "hoomd/mpcd/pytest",
+      "hoomd/mpcd/test"
+    ],
+    "tutorial_dirs": [
+      "sphinx-doc/howto",
+      "sphinx-doc/tutorial"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hoomd-blue-hoomd-blue",
+  "validation": {
+    "core_skills_checked": [
+      "hoomd-blue-sphinx-doc",
+      "hoomd-blue-theory-and-methods",
+      "hoomd-blue-simulation-workflows",
+      "hoomd-blue-build-and-install",
+      "hoomd-blue-parallel-hpc",
+      "hoomd-blue-inputs-and-modeling"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hoomd-blue-hoomd-blue/skills/hoomd-blue-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "hoomd-blue-index"
+    ],
+    "ok": false,
+    "skills_total": 12,
+    "source_links_total": 168,
+    "topic_skills": 11,
+    "warnings": []
+  }
+}

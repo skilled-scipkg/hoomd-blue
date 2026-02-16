@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "hoomd-blue-sphinx-doc",
+    "hoomd-blue-theory-and-methods",
+    "hoomd-blue-build-and-install",
+    "hoomd-blue-simulation-workflows",
+    "hoomd-blue-inputs-and-modeling",
+    "hoomd-blue-examples-and-tutorials"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/hoomd-blue-sphinx-doc.md",
+    "skills/.evidence/hoomd-blue-theory-and-methods.md",
+    "skills/.evidence/hoomd-blue-build-and-install.md",
+    "skills/.evidence/hoomd-blue-simulation-workflows.md",
+    "skills/.evidence/hoomd-blue-inputs-and-modeling.md",
+    "skills/.evidence/hoomd-blue-examples-and-tutorials.md"
+  ]
+}
